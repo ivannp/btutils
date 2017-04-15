@@ -1,0 +1,12 @@
+Package: btutils
+Type: Package
+Title: Utilities for Simple Back Testing of Trading Strategies
+Version: 1.1
+Date: 2015-06-04
+Author: Ivan Popivanov
+Maintainer: Ivan Popivanov <ivan.popivanov@gmail.com>
+Description: A framework to test the impact of risk and money management trading techniques (stop loss, profit target, to name a few) on a trading strategy.
+License: Apache License 2.0
+Depends: R (>= 3.0.2)
+Imports: R6,quantmod,RSQLite,DBI,Rcpp
+LinkingTo: Rcpp
